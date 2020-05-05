@@ -1,0 +1,23 @@
+{
+  "name": "alfred-hitomi",
+  "version": "1.0.1",
+  "description": "download collections from hitomi.la",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preunintsall": "alfy-cleanup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hitomi", "downloader", "alfred-workflow", "alfred"
+  ],
+  "author": {
+    "name": "Mikhael",
+    "email": "paper@ez2dj.net"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "alfy": "*",
+    "async": "^3.2.0"
+  }
+}
